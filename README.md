@@ -6,18 +6,25 @@
 
 # Stack Usage for Game Logic and Optimization
 
+(1) Game Framework: It’s built using Pygame, which helps with graphics, animations, and handling user input like mouse clicks.
 
-- Game Loop: The main loop runs the game and handles all logic like player input, movement, obstacle generation, and collision detection.
-  
-- Event Handling: When processing events, Python uses the event queue but doesn't rely on a stack for event handling.
-  
-- Memory Management: Objects (like obstacles and the player) are created and destroyed dynamically. Python’s garbage collector handles cleanup, so we don't need to worry about managing memory manually with a stack.
+(2) Classes and Objects: The game organizes different parts into "blueprints" called classes:
 
+- The Player class manages the character’s movement and jumping.
+- The Obstacle class handles moving obstacles.
+- The Button class creates clickable buttons for user control.
 
+(3) Player Controls: Players can move the character using on-screen buttons like "Move Up" or "Jump."
 
+(4) Collision Detection: The game checks if the player touches an obstacle, which ends the game.
 
+(5) Random Obstacles: Obstacles appear randomly at different positions to make the game more challenging and unpredictable.
 
+(6) Score System: Every obstacle avoided increases the score, which is displayed on the screen.
 
+(7) Visuals and Interaction: The game features a background, a larger character and obstacles, and colorful buttons for a user-friendly experience.
+
+(8) Performance: It removes obstacles once they’re off the screen to keep the game running smoothly.
 
 
 
