@@ -1,3 +1,7 @@
+
+#Make sure to install pygame before you run the file on your computer
+#You can add further additions in code's functionality if you want 
+
 import pygame
 import random
 import sys
