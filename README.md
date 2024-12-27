@@ -26,7 +26,8 @@
 
 (8) Performance: It removes obstacles once they’re off the screen to keep the game running smoothly.
 
-
+- I am still working on it. So there might be additional backend support in future as well. I still need to figure out a few more concepts before I start doing so.
+- For now, I am aiming to develop it primarily accessible and efficient for users. 
 
 
 
