@@ -28,7 +28,8 @@
 
 - I am still working on it. So there might be additional backend support in future as well. I still need to figure out a few more concepts before I start doing so.
 - For now, I am aiming to develop it primarily accessible and efficient for users. 
-
+- might include low-level custom implementations as well using C++ and C
+- 2D or 3D game flavours can be implemented in enhanced implementation as well, which I look forward to working for.
 
 
 
